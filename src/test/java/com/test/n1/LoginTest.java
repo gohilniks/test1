@@ -25,6 +25,10 @@ public class LoginTest {
 			driver.findElement(By.id("identifierId")).sendKeys("a@test.com");
 
 			Thread.sleep(3000);
+			
+//			Adding new comments
+			
+			
 
 			driver.findElement(By.id("identifierNext")).click();
 			System.out.println("Title is " + title);
