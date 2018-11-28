@@ -30,7 +30,7 @@ public class LoginTest {
 			
 			
 
-			driver.findElement(By.id("identifierNex")).click();
+			driver.findElement(By.id("identifierNext")).click();
 			System.out.println("Title is " + title);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
